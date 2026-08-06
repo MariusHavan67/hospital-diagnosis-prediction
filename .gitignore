@@ -10,3 +10,4 @@ venv/
 # le récupérer plutôt que de le committer (voir README > Données).
 # Décommente la ligne suivante si tu préfères ne pas versionner le CSV :
 # data/diabetic_data.csv
+.Rhistory
