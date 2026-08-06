@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+
+# Le dataset brut est volumineux (~19 Mo) : on documente comment
+# le récupérer plutôt que de le committer (voir README > Données).
+# Décommente la ligne suivante si tu préfères ne pas versionner le CSV :
+# data/diabetic_data.csv
