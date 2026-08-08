@@ -47,7 +47,7 @@ Le déséquilibre de classes est géré par pondération (`class_weight='balance
 
 XGBoost obtient le meilleur F1-macro et est retenu comme modèle final.
 
-**À noter** : ces scores peuvent sembler modestes (~38 %) comparés à un problème de classification "classique". C'est attendu ici : de nombreuses pathologies partagent des profils d'admission très proches (durée de séjour, médicaments, tests de labo similaires), et le diagnostic précis dépend souvent d'informations cliniques (imagerie, examens spécifiques) absentes de ce dataset. Le modèle reste néanmoins nettement au-dessus du hasard (~11 % pour 9 classes équilibrées, et la classe majoritaire seule ferait ~30 %).
+Ces scores peuvent sembler modestes (~38 %) comparés à un problème de classification "classique". C'est attendu ici : de nombreuses pathologies partagent des profils d'admission très proches (durée de séjour, médicaments, tests de labo similaires), et le diagnostic précis dépend souvent d'informations cliniques (imagerie, examens spécifiques) absentes de ce dataset. Le modèle reste néanmoins nettement au-dessus du hasard (~11 % pour 9 classes équilibrées, et la classe majoritaire seule ferait ~30 %).
 
 ### Feature importance (XGBoost)
 Les variables les plus prédictives sont, sans surprise, liées à la **spécialité médicale du service d'admission** (psychiatrie, orthopédie, cardiologie...) et au **type/source d'admission** — logique, puisqu'un patient admis en cardiologie a une probabilité bien plus élevée d'avoir un diagnostic circulatoire.
