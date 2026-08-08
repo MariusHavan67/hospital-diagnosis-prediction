@@ -14,7 +14,7 @@ C'est un problème de **classification multi-classes** avec un fort déséquilib
 
 - Source : [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008), licence CC BY 4.0
 - 101 766 admissions, 50 variables d'origine
-- Le fichier `data/diabetic_data.csv` n'est pas trop volumineux (~19 Mo) et est inclus dans ce repo pour la reproductibilité. Si tu préfères ne pas le committer, télécharge-le depuis UCI et place-le dans `data/`.
+- Le fichier `data/diabetic_data.csv` n'est pas trop volumineux (~19 Mo) et est inclus dans ce repo pour la reproductibilité. 
 
 ## Méthodologie
 
