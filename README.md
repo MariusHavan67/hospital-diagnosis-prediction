@@ -97,7 +97,7 @@ python src/train.py
 ## Limites et pistes d'amélioration
 
 - **Données anciennes** (1999-2008) : les pratiques médicales et les codes diagnostiques (ICD-9, remplacé par ICD-10) ont évolué depuis
-- **Généralisabilité** : dataset américain uniquement, spécifique aux patients diabétiques hospitalisés — pas transposable tel quel à d'autres pays ou populations
+- **Généralisation** : dataset américain uniquement, spécifique aux patients diabétiques hospitalisés — pas transposable tel quel à d'autres pays ou populations
 - **Variables non disponibles** : le dataset ne contient pas de données d'imagerie, de biologie fine ou de comptes-rendus cliniques qui amélioreraient probablement fortement la prédiction
 - **Pistes** : gestion plus fine du texte libre (`medical_specialty` a beaucoup de catégories rares), embeddings pour les codes ICD-9 plutôt qu'un regroupement en 9 classes, modèles de gradient boosting avec tuning d'hyperparamètres (Optuna/GridSearch)
 
